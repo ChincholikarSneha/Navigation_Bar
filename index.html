@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="home"><h1>Welcome to HOT CUP</h1>
+            <p>-mental peace in a cup!!</p>
+        
+        </section>
+        <section id="about"><p>At HOT CUP, we believe that every cup of coffee should be an experience to savor. Sourced from the world's finest coffee-growing regions, 
+            our beans are handpicked to ensure the highest quality.
+             Our expert roasters then craft each batch with precision, unlocking the rich, complex flavors and captivating aromas that make our coffee truly exceptional.
+             Whether you prefer a bold espresso, a smooth latte, or a rich pour-over, HOT CUP offers a diverse range of blends and single-origin coffees to suit every palate. 
+             <br>
+             <br>
+             Experience the difference with HOT CUP- where every cup is brewed to perfection.
+            </p>
+            <img src="https://5.imimg.com/data5/SELLER/Default/2020/8/MF/IR/ZW/36485110/19.jpg">
+
+        
+        </section>
+        <section id="services">
+         
+            <h3>COFFEE MENU</h3>
+            <ol class="list-items">
+                <li><b>LATTE</b></li>
+                <span>-Espresso and steamed milk with a touch of foam</span>
+               
+                <li><b>BREWED COFFEE</b></li>
+                <span>-Your choice of freshly brewed coffee </span>
+                
+                <li><b>MOCHA</b></li>
+                <span>-Espresso, steamed milk and chocolate</span>
+                
+                <li><b>AMERICANO</b></li>
+                <span>-With 6 oz, 12 oz, 18 oz of hot water</span>
+                <li><b>FLAT WHITE</b></li>
+                <span>-With 6 oz, 12 oz, 18 oz of steamed milk</span>
+                <li><b>CAPPUCCINO</b></li>
+                <span>-One part espresso, one part milk, and one part foam</span>
+                <li><b>MACCHIATO</b></li>
+                <span>-Espresso with a dollop of foam</span>
+
+            </ol>
+          
+            <h3>CUSTOMIZATION OPTIONS</h3>
+            <p>Personalize your drink with our range of alternative milk options:</p>
+            <ul>
+                <li>Almond</li>
+                <li>Soy</li>
+                <li>Oat milk</li>
+            </ul>
+            <h3>SPECIALTY ITEMS</h3>
+            <ul >
+                <li>Artisnal Chocolates</li>
+                <li>House-made granola bars</li>
+                <li>Flaky Croissants</li>
+                
+            </ul>
+            
+        </section>
+        <section id="contact">
+            <h3>CONTACT US</h3>
+            <p>We'd love to hear from you! Feel free to reach out with any questions or feedback.</p>
+            <div class="contact-info">
+                <div class="info-item">
+                    <h3>Address</h3>
+                    <p>123 Coffee Street, Brewtown, USA</p>
+                </div>
+                <div class="info-item">
+                    <h3>Phone</h3>
+                    <p>(123) 456-7890</p>
+                </div>
+                <div class="info-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@hotcup.com">info@hotcup.com</a></p>
+                </div>
+            </div>
+            <form class="contact-form" action="submit-form.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
