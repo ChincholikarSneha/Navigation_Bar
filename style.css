@@ -58,6 +58,9 @@ section {
     padding-left: 50px;
     text-align: right;
  }
+#home:hover{
+    color:burlywood;
+ }
  
 #about { 
     background-color: #afaeae;
