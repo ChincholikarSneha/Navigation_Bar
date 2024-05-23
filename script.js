@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (window.scrollY > 20) {
             navbar.style.backgroundColor = '#001f3f';
         } else {
-            navbar.style.backgroundColor = '#001f3f';
+            navbar.style.backgroundColor = '##4CAF50';
         }
     });
 });
